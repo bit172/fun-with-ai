@@ -5,7 +5,7 @@ interface Props {
 
 const Response: React.FC<Props> = ({ prompt, response }) => {
   return (
-    <div className="glass p-4">
+    <div className="glass px-4 py-5">
       <div className="response-row">
         <h2 className="w-20 font-bold">Prompt:</h2>
         <p>{prompt}</p>

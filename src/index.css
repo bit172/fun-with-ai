@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.response-enter {
+  opacity: 0;
+}
+
+.response-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.response-exit {
+  opacity: 1;
+}
+
+.response-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
 @layer base {
   html {
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
