@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Form from "./components/Form";
+import Responses from "./components/Responses";
+import { useLocalStorage } from "./hooks/useLocalStorage";
+import { AIResponse } from "./interfaces";
 
 function App() {
+  const [responses, setResponses] = useLocalStorage<AIResponse[]>(
+    "responses",
+    []
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="md:container md:mx-auto mb-20 p-2 md:p-0">
+      <h1 className="title">Fun with AI</h1>
+      <Form setResponses={setResponses} />
+      <Responses responses={responses} />
     </div>
   );
 }
