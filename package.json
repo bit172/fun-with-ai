@@ -1,5 +1,6 @@
 {
   "name": "fun-with-ai",
+  "homepage": "http://bit172.github.io/fun-with-ai",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -47,6 +50,7 @@
   "devDependencies": {
     "@types/react-transition-group": "^4.4.4",
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
   }
