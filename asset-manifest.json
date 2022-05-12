@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fun-with-ai/static/css/main.83c8c68e.css",
+    "main.js": "/fun-with-ai/static/js/main.86f6fcde.js",
+    "static/js/787.344f5ae6.chunk.js": "/fun-with-ai/static/js/787.344f5ae6.chunk.js",
+    "static/media/mesh-gradient.png": "/fun-with-ai/static/media/mesh-gradient.995411f6e005c98ff30e.png",
+    "index.html": "/fun-with-ai/index.html",
+    "main.83c8c68e.css.map": "/fun-with-ai/static/css/main.83c8c68e.css.map",
+    "main.86f6fcde.js.map": "/fun-with-ai/static/js/main.86f6fcde.js.map",
+    "787.344f5ae6.chunk.js.map": "/fun-with-ai/static/js/787.344f5ae6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c8c68e.css",
+    "static/js/main.86f6fcde.js"
+  ]
+}
