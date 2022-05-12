@@ -8,11 +8,11 @@ const Response: React.FC<Props> = ({ prompt, response }) => {
     <div className="glass px-4 py-5">
       <div className="response-row">
         <h2 className="w-20 font-bold">Prompt:</h2>
-        <p>{prompt}</p>
+        <p className="break-all">{prompt}</p>
       </div>
       <div className="response-row">
         <h2 className="w-20 font-bold">Response:</h2>
-        <p>{response}</p>
+        <p className="break-all">{response}</p>
       </div>
     </div>
   );
