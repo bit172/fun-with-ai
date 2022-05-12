@@ -1,7 +1,8 @@
+import { MODELS } from "../constants";
 import { DataBody } from "../interfaces";
 
-const sendPrompt = async (data: DataBody) => {
-  const URL = "https://api.openai.com/v1/engines/text-curie-001/completions";
+const sendPrompt = async (data: DataBody, modelIdx: number) => {
+  const URL = `https://api.openai.com/v1/engines/${MODELS[modelIdx]}/completions`;
   if (!ApiClient.headers.has("Content-Type"))
     ApiClient.setHeader("Content-Type", "application/json");
   if (!ApiClient.headers.has("Authorization"))
