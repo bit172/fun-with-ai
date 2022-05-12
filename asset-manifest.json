@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fun-with-ai/static/css/main.2433f13e.css",
-    "main.js": "/fun-with-ai/static/js/main.d58ce34f.js",
+    "main.js": "/fun-with-ai/static/js/main.8cd274b9.js",
     "static/js/27.3d22216b.chunk.js": "/fun-with-ai/static/js/27.3d22216b.chunk.js",
     "static/media/mesh-gradient.png": "/fun-with-ai/static/media/mesh-gradient.995411f6e005c98ff30e.png",
     "index.html": "/fun-with-ai/index.html"
   },
   "entrypoints": [
     "static/css/main.2433f13e.css",
-    "static/js/main.d58ce34f.js"
+    "static/js/main.8cd274b9.js"
   ]
 }
